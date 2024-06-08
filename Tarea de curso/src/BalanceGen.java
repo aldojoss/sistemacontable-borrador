@@ -8,7 +8,9 @@ public class BalanceGen {
     private ArrayList<Activo>activo=new ArrayList<>();
     private ArrayList<Pasivo>pasivo=new ArrayList<>();
     private ArrayList<Capital>capital=new ArrayList<>();
-
+//loco aqui hice un constructor pero sin parametros solo guarda los nombres de las cuentas y los
+    //deja en 0 obvio
+    
    public BalanceGen(){
 
 
@@ -43,7 +45,8 @@ public class BalanceGen {
 
 
    }
-
+//para agregar los valores solo le pedi el valor por el for pero vos sabes q antes era 0 
+    //lo q hice fue setearlo el 0 y asi sucesivamente
    public void agregarvalordeactivo(){
 
     for (Activo activo2 : activo) {
